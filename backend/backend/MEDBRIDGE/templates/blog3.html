@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+ <style>
+    .heading
+{   padding-left: 40%;
+    padding: 20px;
+    background-color:rgb(41, 173, 178);
+    height: 80px;
+    text-align:center;
+    color:rgb(235, 227, 213);
+}
+.table
+{   padding-left: 40%;
+    padding: 20px;
+    background-color:rgb(41, 173, 178);
+    height: 40px;
+    text-align:center;
+    color:rgb(235, 227, 213);
+    padding-bottom: 40px;
+    width:30%;
+
+}
+.blog-page {
+    background-image: url('diseases.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    justify-content: center;
+}
+
+/* Table Styles */
+
+.table-wrapper{
+    margin: 40px 80px 80px;
+    box-shadow: 0px 55px 55px rgba( 0, 0, 0, 0.2 );
+}
+
+.fl-table {
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: normal;
+    border: none;
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 100%;
+    white-space: nowrap;
+    background-color: white;
+}
+
+.fl-table td, .fl-table th {
+    text-align: center;
+    padding: 20px;
+}
+
+.fl-table td {
+    border-right: 1px solid #f8f8f8;
+    font-size: 18px;
+}
+
+.fl-table thead th {
+    color: #ffffff;
+    background: #4FC3A1;
+}
+
+
+.fl-table thead th:nth-child(odd) {
+    color: #ffffff;
+    background: #324960;
+}
+
+.fl-table tr:nth-child(even) {
+    background: #F8F8F8;
+}
+
+/* Responsive */
+
+@media (max-width: 767px) {
+    .fl-table {
+        display: block;
+        width: 100%;
+    }
+    .table-wrapper:before{
+        content: "Scroll horizontally ";
+        display: block;
+        text-align: right;
+        font-size: 11px;
+        color: white;
+        padding: 0 0 10px;
+    }
+    .fl-table thead, .fl-table tbody, .fl-table thead th {
+        display: block;
+    }
+    .fl-table thead th:last-child{
+        border-bottom: none;
+    }
+    .fl-table thead {
+        float: left;
+    }
+    .fl-table tbody {
+        width: auto;
+        position: relative;
+        overflow-x: auto;
+    }
+    .fl-table td, .fl-table th {
+        padding: 20px .625em .625em .625em;
+        height: 60px;
+        vertical-align: middle;
+        box-sizing: border-box;
+        overflow-x: hidden;
+        overflow-y: auto;
+        width: 120px;
+        font-size: 13px;
+        text-overflow: ellipsis;
+    }
+    .fl-table thead th {
+        text-align: left;
+        border-bottom: 1px solid #f7f7f9;
+    }
+    .fl-table tbody tr {
+        display: table-cell;
+    }
+    .fl-table tbody tr:nth-child(odd) {
+        background: none;
+    }
+    .fl-table tr:nth-child(even) {
+        background: transparent;
+    }
+    .fl-table tr td:nth-child(odd) {
+        background: #F8F8F8;
+        border-right: 1px solid #E6E4E4;
+    }
+    .fl-table tr td:nth-child(even) {
+        border-right: 1px solid #E6E4E4;
+    }
+    .fl-table tbody td {
+        display: block;
+        text-align: center;
+    }
+}
+ </style>
+
+  <body>
+      <section class="blog-page">
+             <div class="heading">
+                 <h1> <u>
+                    DISEASES AND SYMPTOMS
+                  </u>
+                 </h1>
+                    </div>
+                        <hr>
+                    <br>/
+                    
+                   <div class="table">
+                            <h2> <u>
+                              TABLE OF CONTENT
+                            </u>
+                            </h2>
+                        </div>
+                   <div class="table-wrapper">
+                    <table class="fl-table">
+                        <thead>
+                        <tr>
+                     <th>DISEASE NAME</th>
+                       <th>SYMPTOMS</th>
+                          <th>PRECAUTIONS</th>
+                 </tr>   
+             </thead>
+                   <tbody>
+                       <tr>
+                       <td>Tuberculosis (TB)</td>
+                      <td>
+                             Low fever,
+                                  Tiredness,
+                                    Cough
+                                 </td>
+                            <td><ul> <li>Smoking </li>
+                                <li>Take medicines properly </li>
+                                <li>Wash your hands after coughing or sneezing. </li>
+                                 </ul>
+                                     </td>
+                                    </tr>
+                                       <tr>
+                            <td>Typhoid</td>
+                              <td> headache,
+                                 general aches and pains,
+                                    extreme tiredness (fatigue)</td>
+                                    <td>
+                            <ul>
+                                <li>Drink only boiling water </li>
+                                <li>Avoid eating outside food</li>
+                               <li>Wash your hands properly </li>
+                           </ul>
+                           </td>
+                              </tr>
+                           <tr>
+                      <td>  Diarrhea </td>
+                         <td>Belly (abdominal) cramps,
+                               Stomach pain,
+                        Swelling (bloating)</td>
+                         <td>
+                    <ul>
+                    <li>Do not defecate in any body of water.</li>
+                    <li>Eat safe food. Boil it, cook it, peel it, or throw it away.</li>
+                    <li>Clean up safely.</li>
+                </ul>
+            </td>
+           </tr>
+           <tr>
+            <td>AIDS</td>
+            <td>Rapid weight loss,
+                Recurring fever or  night sweats,
+                Extreme tiredness.</td>
+            <td>
+                <ul>
+                    <li>Get tested for HIV</li>
+                    <li>Choose less risky sexual behaviors.</li>
+                    <li>Limit your number of sexual partners.</li>
+                </ul>
+            </td>
+          </tr>
+          <tr>
+            <td>Malaria</td>
+            <td>Fever,
+                Chills,
+                General feeling of discomfort,
+                Headache</td>
+            <td>
+                <ul>
+                    <li>Cover your skin</li>
+                    <li>Apply insect repellent to skin</li>
+                    <li>Sleep under a net.</li>
+                </ul>
+            </td>
+           <tbody>
+         </table>
+        </div> 
+
+    </section>
+  </body>
+</html>
